@@ -1,0 +1,7 @@
+core = "7.x"
+description = "Demo module for VIH"
+name = "VIH Demo"
+package = "VIH"
+project = "vih_demo"
+version = "7.x-0.1"
+
