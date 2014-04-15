@@ -22,6 +22,13 @@ function vih_demo_disable() {
  * Returns all migrations.
  */
 function _vih_demo_migrations() {
-  return array('VIHEmployees', 'VIHEmployeesContext', 'VIHPages', 'VIHLecturesNode',
-    'VIHShortCourseBasicProduct', 'VIHShortCourseBasicNode');
+  return array(
+    'VIHEmployees', 'VIHEmployeesContext',
+    'VIHPages',
+    'VIHLecturesNode',
+    'VIHShortCourseExternalNode',
+    'VIHShortCourseBasicProduct', 'VIHShortCourseBasicNode',
+    'VIHShortCourseFamilyProduct', 'VIHShortCourseFamilyNode',
+    'VIHSubjectsNode',
+    'VIHFacilities');
 }
