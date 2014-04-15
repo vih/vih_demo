@@ -23,12 +23,15 @@ function vih_demo_disable() {
  */
 function _vih_demo_migrations() {
   return array(
-    'VIHEmployees', 'VIHEmployeesContext',
     'VIHPages',
-    'VIHLecturesNode',
+    'VIHEmployees', 'VIHEmployeesContext',
+    'VIHLecturesProduct', 'VIHLecturesNode',
+    'VIHLongCourseNode',
     'VIHShortCourseExternalNode',
     'VIHShortCourseBasicProduct', 'VIHShortCourseBasicNode',
     'VIHShortCourseFamilyProduct', 'VIHShortCourseFamilyNode',
+    'VIHShortCourseGolfProduct', 'VIHShortCourseGolfNode',
+    'VIHShortCourseKayakProduct', 'VIHShortCourseKayakExtraProduct', 'VIHShortCourseKayakNode',
     'VIHSubjectsNode',
     'VIHFacilities');
 }
