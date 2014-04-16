@@ -30,7 +30,7 @@ function _vih_demo_migrations() {
     'VIHShortCourseExternalNode',
     'VIHShortCourseBasicProduct', 'VIHShortCourseBasicNode',
     'VIHShortCourseFamilyProduct', 'VIHShortCourseFamilyNode',
-    'VIHShortCourseGolfProduct', 'VIHShortCourseGolfNode',
+    'VIHGolfCourseNode', 'VIHShortCourseGolfProduct', 'VIHShortCourseGolfNode',
     'VIHShortCourseKayakProduct', 'VIHShortCourseKayakExtraProduct', 'VIHShortCourseKayakNode',
     'VIHSubjectsNode',
     'VIHFacilities');
