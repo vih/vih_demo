@@ -27,6 +27,8 @@ function _vih_demo_migrations() {
     'VIHEmployees', 'VIHEmployeesContext',
     'VIHLecturesProduct', 'VIHLecturesNode',
     'VIHLongCourseNode',
+    'VIHParticipantQuoteNode',
+    'VIHStudentQuoteNode',
     'VIHShortCourseExternalNode',
     'VIHShortCourseBasicProduct', 'VIHShortCourseBasicNode',
     'VIHShortCourseFamilyProduct', 'VIHShortCourseFamilyNode',
