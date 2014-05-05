@@ -6,3 +6,4 @@ project = "vih_demo"
 version = "7.x-0.1"
 
 dependencies[] = vih_migrate
+dependencies[] = panopoly_demo

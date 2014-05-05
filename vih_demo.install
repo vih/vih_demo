@@ -16,6 +16,7 @@ function vih_demo_enable() {
  */
 function vih_demo_disable() {
   _panopoly_core_rollback_demo_content(_vih_demo_migrations());
+  module_disable(array('panopoly_demo'));
 }
 
 /**
@@ -23,7 +24,7 @@ function vih_demo_disable() {
  */
 function _vih_demo_migrations() {
   return array(
-    'VIHPages',
+    'PanopolyDemoNode',
     'VIHEmployees', 'VIHEmployeesContext',
     'VIHLecturesProduct', 'VIHLecturesNode',
     'VIHLongCourseNode',
