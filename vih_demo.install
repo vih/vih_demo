@@ -9,6 +9,7 @@
  */
 function vih_demo_enable() {
   _panopoly_core_import_demo_content(_vih_demo_migrations());
+  _panopoly_core_import_demo_content(array('PanopolyDemoNode'));
 }
 
 /**
@@ -16,7 +17,11 @@ function vih_demo_enable() {
  */
 function vih_demo_disable() {
   _panopoly_core_rollback_demo_content(_vih_demo_migrations());
+  if (module_exists('panopoly_demo')) {
+    _panopoly_core_rollback_demo_content(array('PanopolyDemoNode'));
+  }
   module_disable(array('panopoly_demo'));
+
 }
 
 /**
@@ -24,7 +29,6 @@ function vih_demo_disable() {
  */
 function _vih_demo_migrations() {
   return array(
-    'PanopolyDemoNode',
     'VIHEmployees', 'VIHEmployeesContext',
     'VIHLecturesProduct', 'VIHLecturesNode',
     'VIHLongCourseNode',
@@ -35,7 +39,7 @@ function _vih_demo_migrations() {
     'VIHShortCourseFamilyProduct', 'VIHShortCourseFamilyNode',
     'VIHGolfCourseNode', 'VIHShortCourseGolfProduct', 'VIHShortCourseGolfNode',
     'VIHShortCourseKayakProduct', 'VIHShortCourseKayakExtraProduct', 'VIHShortCourseKayakNode',
-    'VIHShortCourseSportProduct', 'VIHShortCourseSportNode',
+    'VIHShortCourseSportProduct', 'VIHShortCourseSportExtraProduct', 'VIHShortCourseSportNode',
     'VIHSubjectsNode',
     'VIHFacilities');
 }
