@@ -40,6 +40,6 @@ function _vih_demo_migrations() {
     'VIHGolfCourseNode', 'VIHShortCourseGolfProduct', 'VIHShortCourseGolfNode',
     'VIHShortCourseKayakProduct', 'VIHShortCourseKayakExtraProduct', 'VIHShortCourseKayakNode',
     'VIHShortCourseSportProduct', 'VIHShortCourseSportExtraProduct', 'VIHShortCourseSportNode',
-    'VIHSubjectsNode',
+    'VIHSubjectsPackageTaxonomy', 'VIHSubjectsNode',
     'VIHFacilities');
 }
