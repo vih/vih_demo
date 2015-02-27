@@ -41,5 +41,6 @@ function _vih_demo_migrations() {
     'VIHShortCourseKayakProduct', 'VIHShortCourseKayakExtraProduct', 'VIHShortCourseKayakNode',
     'VIHShortCourseSportProduct', 'VIHShortCourseSportExtraProduct', 'VIHShortCourseSportNode',
     'VIHSubjectsPackageTaxonomy', 'VIHSubjectsNode',
+    'VIHStoriesNode',
     'VIHFacilities');
 }
